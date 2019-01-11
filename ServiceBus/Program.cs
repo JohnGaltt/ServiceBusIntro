@@ -11,7 +11,7 @@ namespace ServiceBus
 
         static string queueName = "queue1";
 
-        static IQueueClient queueClient;
+        static QueueClient queueClient;
         static void Main(string[] args)
         {
             MainAsync().GetAwaiter().GetResult();
